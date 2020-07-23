@@ -1,10 +1,46 @@
+
+blink {
+  -webkit-animation: 2s linear infinite condemned_blink_effect; /* for Safari 4.0 - 8.0 */
+  animation: 2s linear infinite condemned_blink_effect;
+}
+
+/* for Safari 4.0 - 8.0 */
+@-webkit-keyframes condemned_blink_effect { 
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+@keyframes condemned_blink_effect {
+  0% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+
 @media only screen and (max-device-width: 530px) {
 
 .navimg {
- 	height: 55px !important;
- 	width:65px  !important;
+ 	height: 65px !important;
+ 	width:72px  !important;
  }
-
+ 
+.img-responsive{
+	height: 200px !important;
+} 
 img {
  	width: 100% !important;
  }
