@@ -1,0 +1,14 @@
+@media only screen and (max-device-width: 530px) {
+
+.navimg {
+ 	height: 55px !important;
+ 	width:65px  !important;
+ }
+
+img {
+ 	width: 100% !important;
+ }
+ 
+ 
+ 
+    }
