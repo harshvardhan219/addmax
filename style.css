@@ -53,7 +53,7 @@ img {
 .btn-primary, .btn-primary:hover {
     background-image: -webkit-linear-gradient(left,#8b62ff,#3b1bff) !important;
     background-image: -o-linear-gradient(left,#8b62ff 0,#3b1bff 100%) !important;
-    background-image: linear-gradient(90deg,#e62273 0,#f70f85) !important;
+    background-image: linear-gradient(90deg,#966F33 0,#966F33) !important;
     background-repeat: repeat-x !important;
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FF8B62FF",endColorstr="#FF3B1BFF",GradientType=1) !important;
 }
